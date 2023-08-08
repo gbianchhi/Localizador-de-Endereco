@@ -1,2 +1,4 @@
 # Localizador-de-Endereco
- Localiza o endereço através do CEP informado
+ O objetivo desse projeto é simular um preenchedor de endereço automático usados em sites de cadastro.
+ 
+ A localização do endereço é feita por meio de consumo da API do https://viacep.com.br/, e então, transformada de JSON para objeto, de forma a trazer apenas as informações de endereço necessarias.

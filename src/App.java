@@ -8,7 +8,6 @@ public class App {
         String CEP = scanner.nextLine();
 
         FormatadorDeCEP formatadorDeCEP = new FormatadorDeCEP();
-
         String CEPfinal = formatadorDeCEP.formatarCEP(CEP);
 
         BuscaCEPnoVIACEP buscaCEP = new BuscaCEPnoVIACEP();
